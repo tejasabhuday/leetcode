@@ -10,5 +10,5 @@ class Solution:
             total = nums[right]+nums[left]+nums[mid]
             if total == 0:
                 return right, left , mid
-            else               
+            else:
             
