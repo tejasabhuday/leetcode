@@ -1,5 +1,5 @@
 class Solution:
-    def largestAltitude(self, gain: List[int]) -> int:
+    def largestAltitude(self, gain: list[int]) -> int:
         maxAlt = 0
         currAlt = 0
         for g in gain:
@@ -8,3 +8,4 @@ class Solution:
                 maxAlt = currAlt
 
         return maxAlt
+    
