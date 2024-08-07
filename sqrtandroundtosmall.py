@@ -6,4 +6,6 @@ from math import sqrt
 class Solution:
     def mySqrt(self, x: int) -> int:
         t = floor(sqrt(x))
-        return ts
+        return t
+    
+    

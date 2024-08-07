@@ -1,4 +1,4 @@
-num = 1234
+num = -321
 reverse = int(str(num)[::-1])
 
 if num == reverse:
