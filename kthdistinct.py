@@ -1,5 +1,5 @@
 class Solution:
-    def kthDistinct(self, arr: List[str], k: int) -> str:
+    def kthDistinct(self, arr: list[str], k: int) -> str:
         count = 0
         map = {}
         for item in arr:
